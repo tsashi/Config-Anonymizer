@@ -190,6 +190,7 @@ interface Vxlan1
    vxlan vrf CUST-RED vni 10100
    vxlan vrf CUST-GREEN vni 30300
 !
+!
 router bgp 65000
    neighbor 10.1.1.2 remote-as 65002
    !
